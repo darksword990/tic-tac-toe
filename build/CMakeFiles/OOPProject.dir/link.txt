@@ -1,1 +1,0 @@
-C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\em++.bat -Os --bind "--preload-file db.json" -sEXPORTED_FUNCTIONS=_malloc,_free,setValue,getValue -sEXPORTED_RUNTIME_METHODS=ccall,cwrap @CMakeFiles\OOPProject.dir\objects1.rsp -o OOPProject.js 
