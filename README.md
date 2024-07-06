@@ -10,14 +10,25 @@
 ## Install
 
 ```sh
-emcmake cmake -G &#34;MinGW Makefiles&#34; ..
+emcmake cmake -G "MinGW Makefiles" ..
+
+emmake make
 ```
 
 ## Usage
 
 ```sh
-emmake make
+emrun --no_browser --port <port number> .
 ```
+
+## Example
+
+```sh
+emrun --no_browser --port 8080 .
+```
+
+`--no_browser` (optional) This argument opens up the browser
+`--port` The port number must be specified after this argument
 
 ## Author
 
