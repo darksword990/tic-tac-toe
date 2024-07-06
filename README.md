@@ -28,6 +28,7 @@ emrun --no_browser --port 8080 .
 ```
 
 `--no_browser` (optional) This argument opens up the browser
+
 `--port` The port number must be specified after this argument
 
 ## Author
