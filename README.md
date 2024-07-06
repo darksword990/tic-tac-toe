@@ -1,45 +1,30 @@
-# Tic-tac-toe Project
+<h1 align="center">Welcome to tic-tac-toe 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/tic-tac-toe" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/tic-tac-toe.svg">
+  </a>
+</p>
 
-This project uses the Emscripten toolchain to compile this C++ project to WebAssembly. I have also used concepts of Minimax Algorithm to make AI game mode. You can also choose custom difficulty levels (Easy, Medium, Hard).
+> This project uses the Emscripten toolchain to compile this C++ project to WebAssembly. I have also used concepts of Minimax Algorithm to make AI game mode. We can choose custom difficulty levels (Easy, Medium, Hard). The project uses macros such as `EM_JS` and `EM_ASM` from Emscripten library. More info can be found on their documentation.
 
-## Installation
+## Install
 
-You must have [CMake](https://cmake.org/download/), [git](https://git-scm.com), and [Emscripten](https://emscripten.org/docs/getting_started/downloads.html) toolchain compiler installed properly.
-
-Make sure to edit the include paths in `CMakeLists.txt` file to avoid any errors.
-
-## Build
-
-To build this project, you must have the necessary tools installed above. Then open up command prompt and run the following commands:
-
-Changing directory:
-```bash
-cd <current-project-directory-path>
+```sh
+emcmake cmake -G &#34;MinGW Makefiles&#34; ..
 ```
-Make folder:
-```bash
-mkdir build
-```
-Changing directory to build directory:
-```bash
-cd build
-```
-Building MinGW Makefiles:
-```bash
-emcmake cmake -G "MinGW Makefiles" ..
-```
-Build the project:
-```bash
+
+## Usage
+
+```sh
 emmake make
 ```
 
-## Running the project
-Run the following command in your shell:
+## Author
 
-```bash
-emrun --no_browser --port <port number> .
-```
+👤 **Khuzaima Sharif**
 
-`--no_browser` is optional, it simply opens up the browser
+* Github: [@darksword990](https://github.com/darksword990)
 
-`--port` is necessary to host the project to the specified port
+## Show your support
+
+Give a ⭐️ if you liked this project!
