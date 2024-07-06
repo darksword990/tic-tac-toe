@@ -1,3 +1,0 @@
-C:/Users/user/Documents/oop-project/build/CMakeFiles/OOPProject.dir
-C:/Users/user/Documents/oop-project/build/CMakeFiles/edit_cache.dir
-C:/Users/user/Documents/oop-project/build/CMakeFiles/rebuild_cache.dir
