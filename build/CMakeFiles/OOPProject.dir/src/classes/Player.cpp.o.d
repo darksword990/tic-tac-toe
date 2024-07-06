@@ -826,27 +826,17 @@ CMakeFiles/OOPProject.dir/src/classes/Player.cpp.o: \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\string_concat.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\meta\identity_tag.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\meta\std_fs.hpp \
-  C:\Users\user\Downloads\json\json\include\nlohmann\detail\conversions\to_json.hpp \
-  C:\Users\user\Downloads\json\json\include\nlohmann\detail\iterators\iteration_proxy.hpp \
-  C:\Users\user\Downloads\json\json\include\nlohmann\byte_container_with_subtype.hpp \
-  C:\Users\user\Downloads\json\json\include\nlohmann\detail\hash.hpp \
-  C:\Users\user\Downloads\json\json\include\nlohmann\detail\input\binary_reader.hpp \
-  C:\Users\user\Downloads\json\json\include\nlohmann\detail\input\input_adapters.hpp \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\numeric \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\accumulate.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\adjacent_difference.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\exclusive_scan.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\gcd_lcm.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\inclusive_scan.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\inner_product.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\iota.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\midpoint.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\partial_sum.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\pstl_reduce.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\reduce.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\saturation_arithmetic.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\transform_exclusive_scan.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\transform_inclusive_scan.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\filesystem \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\copy_options.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\directory_entry.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\file_status.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\file_type.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\perms.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\file_time_type.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\file_clock.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\filesystem_error.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\path.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iomanip \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\istream \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ostream \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\bitset \
@@ -875,6 +865,35 @@ CMakeFiles/OOPProject.dir/src/classes/Player.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__format\formatter_tuple.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\print \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\unistd.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\operations.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\perm_options.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\space_info.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\directory_iterator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\directory_options.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\path_iterator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\recursive_directory_iterator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__filesystem\u8path.h \
+  C:\Users\user\Downloads\json\json\include\nlohmann\detail\conversions\to_json.hpp \
+  C:\Users\user\Downloads\json\json\include\nlohmann\detail\iterators\iteration_proxy.hpp \
+  C:\Users\user\Downloads\json\json\include\nlohmann\byte_container_with_subtype.hpp \
+  C:\Users\user\Downloads\json\json\include\nlohmann\detail\hash.hpp \
+  C:\Users\user\Downloads\json\json\include\nlohmann\detail\input\binary_reader.hpp \
+  C:\Users\user\Downloads\json\json\include\nlohmann\detail\input\input_adapters.hpp \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\numeric \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\accumulate.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\adjacent_difference.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\exclusive_scan.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\gcd_lcm.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\inclusive_scan.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\inner_product.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\iota.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\midpoint.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\partial_sum.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\pstl_reduce.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\reduce.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\saturation_arithmetic.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\transform_exclusive_scan.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__numeric\transform_inclusive_scan.h \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\input\json_sax.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\input\lexer.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\meta\is_sax.hpp \
@@ -889,9 +908,24 @@ CMakeFiles/OOPProject.dir/src/classes/Player.cpp.o: \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\output\binary_writer.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\output\output_adapters.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\output\serializer.hpp \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iomanip \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\conversions\to_chars.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\ordered_map.hpp \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\any \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\chrono \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\calendar.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\convert_to_tm.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\concepts.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\hh_mm_ss.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\day.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\month.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\month_weekday.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\weekday.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\monthday.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\year.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\year_month.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\year_month_day.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\year_month_weekday.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\literals.h \
   C:\Users\user\Downloads\json\json\include\nlohmann\detail\macro_unscope.hpp \
   C:\Users\user\Downloads\json\json\include\nlohmann\thirdparty\hedley\hedley_undef.hpp \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iostream

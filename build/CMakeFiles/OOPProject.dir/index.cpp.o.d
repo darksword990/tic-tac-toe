@@ -1,5 +1,7 @@
 CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\oop-project\index.cpp \
+  C:\Users\user\Documents\oop-project\include\Player.h \
+  C:\Users\user\Documents\oop-project\include\Multiplayer.h \
   C:\Users\user\Documents\oop-project\include\Game.h \
   C:\Users\user\Documents\oop-project\include\TicTacToeFunctions.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\emscripten.h \
@@ -19,34 +21,36 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\alloca.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\wget.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\version.h \
-  C:\Users\user\Documents\oop-project\include\..\src\structs\GameState.cpp \
-  C:\Users\user\Documents\oop-project\include\Multiplayer.h \
-  C:\Users\user\Documents\oop-project\include\AIGame.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iostream \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\string \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\max.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\comp.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\integral_constant.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\operation_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\comp_ref_type.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__assert \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__assertion_handler \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__verbose_abort \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__availability \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\version \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ios \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\ios.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\string.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\memory_resource.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ios\fpos.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__locale \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\shared_ptr.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\compare_three_way.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\three_way_comparable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\common_comparison_category.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\ordering.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\enable_if.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_same.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\integral_constant.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cstddef \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_integral.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\declval.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\max_element.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\iterator_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\arithmetic.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_floating_point.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_cv.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_const.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_volatile.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_integral.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_signed.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_arithmetic.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_signed_integer.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_unsigned_integer.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\constructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\convertible_to.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_convertible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_array.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cstddef \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\enable_if.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\version \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\stddef.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\lib\clang\19\include\stddef.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\lib\clang\19\include\__stddef_ptrdiff_t.h \
@@ -56,16 +60,26 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\lib\clang\19\include\__stddef_nullptr_t.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\lib\clang\19\include\__stddef_max_align_t.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\lib\clang\19\include\__stddef_offsetof.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\common_reference_with.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\convertible_to.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_convertible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_array.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_function.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_const.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_reference.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_void.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_same.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_reference.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\declval.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\destructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_destructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_destructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_all_extents.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_scalar.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_enum.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_member_pointer.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_member_function_pointer.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_null_pointer.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_pointer.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_constructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\copyable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\assignable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\common_reference_with.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\same_as.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\common_reference.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\common_type.h \
@@ -83,104 +97,103 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\copy_cvref.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\add_lvalue_reference.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\add_rvalue_reference.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\make_const_lvalue_ref.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\forward.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\movable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\swappable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\class_or_enum.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_class.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_union.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\extent.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_move_assignable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_move_constructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_constructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\exchange.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_assignable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\move.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_copy_constructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__undef_macros \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\swap.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_move_assignable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_move_constructible.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_swappable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\nat.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_object.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\equality_comparable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\boolean_testable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\forward.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\make_const_lvalue_ref.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\totally_ordered.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__exception\exception.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\binary_function.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\operations.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\unary_function.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\operation_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\pair.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\incrementable_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_primary_template.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_valid_expansion.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\make_signed.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\apply_cv.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_volatile.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\type_list.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\readable_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\disjunction.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\initializer_list \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\min.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\min_element.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\identity.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\reference_wrapper.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\invoke.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\invoke.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\apply_cv.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_volatile.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_base_of.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_core_convertible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_member_function_pointer.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_member_object_pointer.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_reference_wrapper.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\nat.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\weak_result_type.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\binary_function.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\unary_function.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\addressof.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\ostream.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\access.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocation_guard.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator_traits.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\construct_at.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\voidify.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\move.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_copy_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_move_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__undef_macros \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\new \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cstdlib \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_callable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\remove.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find_segment_if.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\segmented_iterator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\unwrap_iter.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\pointer_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\conjunction.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\countr.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\rotate.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\limits \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\type_traits \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\hash.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\aligned_storage.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\type_list.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\aligned_union.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\alignment_of.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\can_extract_key.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\pair.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_const_ref.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\conjunction.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\dependent_type.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\disjunction.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\extent.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\has_unique_object_representation.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\remove_all_extents.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\has_virtual_destructor.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_abstract.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_aggregate.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_arithmetic.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_floating_point.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_assignable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_bounded_array.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_callable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_char_like_type.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_standard_layout.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivial.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_class.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_compound.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_fundamental.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_null_pointer.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_constant_evaluated.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_copy_assignable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_default_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_destructible.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_empty.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_enum.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_final.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_implicitly_default_constructible.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_literal_type.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_member_pointer.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_move_assignable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_move_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_assignable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_convertible.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\lazy.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_copy_assignable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_copy_constructible.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_default_constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_destructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_scalar.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_pointer.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_nothrow_move_assignable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_object.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_union.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_pod.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_polymorphic.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_scoped_enum.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\underlying_type.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_signed.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_specialization.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_swappable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivially_assignable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivially_constructible.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivially_copy_assignable.h \
@@ -197,7 +210,6 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivially_move_constructible.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_unbounded_array.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_unsigned.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\make_signed.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\make_unsigned.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\maybe_const.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\negation.h \
@@ -206,57 +218,72 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\result_of.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\type_identity.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\unwrap_ref.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\pointer_traits.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\limits \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocate_at_least.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator_destructor.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\auto_ptr.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\compressed_pair.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\get.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\copyable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\assignable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\constructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\destructible.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\movable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\swappable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\class_or_enum.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\exchange.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\swap.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\array.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\subrange.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\invert_if.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\bit_reference.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__string\constexpr_c_functions.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\construct_at.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\access.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\voidify.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\new \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__exception\exception.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cstdlib \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\datasizeof.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_always_bitcastable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_equality_comparable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivially_lexicographically_comparable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\is_pointer_in_range.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cwchar \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cwctype \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cctype \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ctype.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\ctype.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\wctype.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\wctype.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\wchar.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\wchar.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find_if.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\remove_if.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__format\enable_insertable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\hash.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\sfinae_helpers.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\tuple.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\make_tuple_types.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\array.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_element.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_indices.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\integer_sequence.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_types.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_size.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_like_ext.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\pair.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\common_comparison_category.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\ordering.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\synth_three_way.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\three_way_comparable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\different_from.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\get.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\subrange.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\pair_like.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_like.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\piecewise_construct.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\uninitialized_algorithms.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\copy.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\copy_move_common.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\iterator_operations.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\iter_swap.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\ranges_iterator_concept.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cstring \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\compat\string.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\string.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\string.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\strings.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\string.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\memory_resource.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ios\fpos.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\ios.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\distance.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\concepts.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\arithmetic.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_signed_integer.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_unsigned_integer.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\derived_from.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\invocable.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\predicate.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\regular.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\semiregular.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\relation.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\incrementable_traits.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_primary_template.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_valid_expansion.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\iter_move.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\iterator_traits.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\readable_traits.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\advance.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\convert_to_integral.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\unreachable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\distance.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\access.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\enable_borrowed_range.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\auto_cast.h \
@@ -264,59 +291,35 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\data.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\enable_view.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\size.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\initializer_list \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\iter_swap.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\next.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\prev.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\unwrap_iter.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\unwrap_range.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\pair.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\synth_three_way.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__concepts\different_from.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\pair_like.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_like.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_size.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\sfinae_helpers.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\make_tuple_types.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__tuple\tuple_like_ext.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__string\constexpr_c_functions.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\datasizeof.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_always_bitcastable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_equality_comparable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__type_traits\is_trivially_lexicographically_comparable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\is_pointer_in_range.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\comp.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\for_each_segment.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\segmented_iterator.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\min.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\comp_ref_type.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\min_element.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\identity.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\move.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\reverse_iterator.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\compare_three_way_result.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\advance.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\convert_to_integral.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\unreachable.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\iter_swap.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\iterator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\next.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\prev.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\subrange.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\dangling.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\view_interface.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\empty.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\wrap_iter.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocate_at_least.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator_traits.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\compressed_pair.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\swap_allocator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory_resource\polymorphic_allocator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory_resource\memory_resource.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\exception_guard.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\unique_ptr.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\hash.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cstring \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\compat\string.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\string.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\string.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\strings.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\typeinfo \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\memory_order.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__mutex\once_flag.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\tuple \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator_arg_t.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\uses_allocator.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\compare \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\compare_partial_order_fallback.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\partial_order.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\compare_three_way.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\weak_order.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__compare\strong_order.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\bit_cast.h \
@@ -351,11 +354,13 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\exception \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__exception\exception_ptr.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__exception\operations.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\typeinfo \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__exception\nested_exception.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__exception\terminate.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iosfwd \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\fstream.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\istream.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\ostream.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\sstream.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\streambuf.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__std_mbstate_t.h \
@@ -368,40 +373,17 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\in_place.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\rel_ops.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\to_underlying.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\no_destroy.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cctype \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ctype.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\ctype.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\clocale \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\locale.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\locale.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\string \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\max.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\max_element.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\remove.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find_segment_if.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\countr.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\rotate.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\invert_if.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__fwd\bit_reference.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cwchar \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\cwctype \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\wctype.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\wctype.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\wchar.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\wchar.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find_if.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\remove_if.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__format\enable_insertable.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\wrap_iter.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\swap_allocator.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory_resource\polymorphic_allocator.h \
-  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory_resource\memory_resource.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\container_compatible_range.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__ranges\from_range.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__string\char_traits.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\copy_n.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\copy.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\copy_move_common.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\iterator_operations.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\iter_swap.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\ranges_iterator_concept.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\unwrap_range.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\for_each_segment.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\fill_n.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\find_end.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\search.h \
@@ -455,6 +437,7 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\contention_t.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\cxx_atomic_impl.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\is_always_lock_free.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\memory_order.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__chrono\duration.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ratio \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__thread\poll_with_backoff.h \
@@ -473,6 +456,7 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\pthread.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\sched.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\check_memory_order.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__functional\operations.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\atomic_lock_free.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\atomic_flag.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__atomic\atomic_init.h \
@@ -505,12 +489,19 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__iterator\unreachable_sentinel.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\memory \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\align.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocation_guard.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\assume_aligned.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\auto_ptr.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\concepts.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\ranges_construct_at.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\ranges_uninitialized_algorithms.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\in_out_result.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\uninitialized_algorithms.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\move.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\raw_storage_iterator.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\shared_ptr.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\allocator_destructor.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\unique_ptr.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\temporary_buffer.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__memory\uses_allocator_construction.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\for_each_n.h \
@@ -720,6 +711,16 @@ CMakeFiles/OOPProject.dir/index.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\byteswap.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\endian.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\has_single_bit.h \
+  C:\Users\user\Documents\oop-project\include\..\src\structs\GameState.cpp \
+  C:\Users\user\Documents\oop-project\include\AIGame.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iostream \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ios \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__locale \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__mutex\once_flag.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__utility\no_destroy.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\clocale \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\locale.h \
+  C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\locale.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__support\musl\xlocale.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__system_error\error_category.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__system_error\error_code.h \

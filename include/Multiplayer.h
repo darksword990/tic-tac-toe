@@ -2,22 +2,18 @@
 #define GAME_MUL
 #include <Game.h>
 
-class Player;
+// class Player;
 
 class Multiplayer : virtual public Game {
     protected:
-        Player* plr1;
-        Player* plr2;
+        static bool undoStatus;
 
     public:
         Multiplayer();
-        void setPlr1(Player*);
-        void setPlr2(Player*);
-        Player* getPlr1();
-        Player* getPlr2();
         void swapPlayer();
-        // void startMulGame();
         void changeGameState(); // undo
+        bool getUndoStatus();
+        void setUndoStatus(bool);
 };
 
 #endif

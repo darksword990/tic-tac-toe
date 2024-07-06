@@ -2,21 +2,22 @@
 #define GAME_AI
 #include <Game.h>
 
-class Player;
+// class Player;
 
 class AIGame : virtual public Game {
     protected:
-        int difficulty;
-        Player* plr1;
-        Player* plr2;
+        static int difficulty;
+        static int winEval;
+        static int loseEval;
         
     public:
         AIGame();
-        void setPlr1(Player*);
-        void setPlr2(Player*);
-        Player* getPlr1();
-        Player* getPlr2();
-        // void startAIGame();
+        void setDifficulty(int);
+        int getDifficulty();
+        int evaluationFunctionAtTerminalState();
+        int minimax(char[3][3], int, bool); // depth, isMax
+        bool movesLeft();
+        AINextMove findAIBestNextMove();
 };
 
 #endif

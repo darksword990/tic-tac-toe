@@ -20,9 +20,6 @@ CMakeFiles/OOPProject.dir/src/classes/Multiplayer.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\alloca.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\wget.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\version.h \
-  C:\Users\user\Documents\oop-project\include\..\src\structs\GameState.cpp \
-  C:\Users\user\Documents\oop-project\include\Player.h \
-  C:\Users\user\Documents\oop-project\include\AIGame.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\string \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\max.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__algorithm\comp.h \
@@ -713,6 +710,9 @@ CMakeFiles/OOPProject.dir/src/classes/Multiplayer.cpp.o: \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\byteswap.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\endian.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__bit\has_single_bit.h \
+  C:\Users\user\Documents\oop-project\include\..\src\structs\GameState.cpp \
+  C:\Users\user\Documents\oop-project\include\Player.h \
+  C:\Users\user\Documents\oop-project\include\AIGame.h \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\iostream \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\ios \
   C:\Users\user\Documents\Emscripten\emsdk\upstream\emscripten\cache\sysroot\include\c++\v1\__locale \

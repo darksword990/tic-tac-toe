@@ -6,48 +6,36 @@
 using namespace std;
 
 extern Game* G;
+extern Player* plr1;
+extern Player* plr2;
+
+bool Multiplayer::undoStatus;
 
 Multiplayer::Multiplayer() {
-    plr1 = nullptr;
-    plr2 = nullptr;
+    undoStatus = true;
+    cout << "Multiplayer called" << endl;
 }
 
-void Multiplayer::setPlr1(Player* plr) {
-    plr1 = plr;
+bool Multiplayer::getUndoStatus() {
+    return undoStatus;
 }
 
-void Multiplayer::setPlr2(Player* plr) {
-    plr2 = plr;
-}
-
-Player* Multiplayer::getPlr1() {
-    return plr1;
-}
-
-Player* Multiplayer::getPlr2() {
-    return plr2;
+void Multiplayer::setUndoStatus(bool val) {
+    undoStatus = val;
 }
 
 void Multiplayer::swapPlayer() {
-    if (G->getCurrentPlayer() == plr1) {
-        G->setCurrentPlayer(plr2);
+    if (G == plr1) {
+        G = plr2;
     } else {
-        G->setCurrentPlayer(plr1);
+        G = plr1;
     }
 }
 
 void Multiplayer::changeGameState() { // undo
-    // change the game state
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            G->getState().presState[i][j] = G->getState().prevState[i][j];
+            state.presState[i][j] = state.prevState[i][j];
         }
     }
 }
-
-// void Multiplayer::startMulGame() {
-//     // displayGameState();
-
-//     plr1->setWins(plr1->getWins() + 1);
-//     cout << plr1->getWins() << endl;
-// }

@@ -13,20 +13,28 @@ class Player : public Multiplayer, public AIGame {
         int plrLoses;
         char symbol;
         int undoCount;
+        int coins;
+        PowerupPurchases powerups;
 
     public:
         Player();
+        // Getters
         string getUsername();
         int getWins();
         int getLoses();
         char getSymbol();
         int getUndoCount();
+        int getCoins();
+        PowerupPurchases getPowerups();
 
+        // Setters
         void setWins(int);
         void setLoses(int);
         void setUsername(string);
         void setSymbol(char);
         void setUndoCount(int);
+        void setCoins(int);
+        void setPowerups(string);
 
         string checkWinner();
 };

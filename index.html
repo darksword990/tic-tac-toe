@@ -5,270 +5,667 @@
   <title>TicTacToe Game</title>
   <script src="build/OOPProject.js"></script>
   <script src="script.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
   <style>
+    /*body at center, black background*/
     body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        input[type="text"], input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-sizing: border-box; /* Ensures padding does not affect overall width */
-        }
-        input[type="submit"] {
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%;
-        }
-        input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-        .center-button {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px; /* Adds some space above the button */
-        }
-        .center-button button {
-            padding: 10px 20px; /* Adjust padding as needed */
-            cursor: pointer;
-        }
-        /* Tic Tac Toe grid */
-        .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-gap: 10px;
-  justify-content: center;
-}
-
-.grid-item {
-  background-color: #ffffff;
-  border: none;
-  border-radius: 10px;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.grid-item:hover {
-  transform: scale(1.1);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.win-counter {
-  margin-top: 30px;
-  text-align: center;
-  color: #333;
-}
-
-.win-counter p {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-#x-wins, #o-wins {
-  font-weight: bold;
-  color: #2196F3;
-}
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 97vh;
+      background-color: #000;
+      color: #fff;
+    }
+    /* game-content styling, buttons vertically aligned, center aligned, black theme minimalistic, space between elements */
+    #game-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    /* game-heading styling */
+    #game-heading {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    /* game-para styling */
+    #game-para {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    /* back btn styling, black theme minimalistic */
+    #back-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      visibility: hidden;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* back-btn hover effect */
+    #back-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* play-btn styling, black theme minimalistic, transparent background and opaque border, a bit of space between elements */
+    #play-btn {
+      /*for spacing*/
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      inline-size: -webkit-fill-available;
+    }
+    /* play-btn hover effect */
+    #play-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* undo purchase click btn, black theme minimalistic, transparent background and opaque border */
+    #undo-purchase-click {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      inline-size: -webkit-fill-available;
+    }
+    /* undo-purchase-click hover effect */
+    #undo-purchase-click:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /*which one section, AI button and Multiplayer button styling, black theme minimalistic, transparent background and opaque border */
+    #which-one-para {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    /* ai-btn styling */
+    #ai-btn {
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      inline-size: -webkit-fill-available;
+    }
+    /* ai-btn hover effect */
+    #ai-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* mul-btn styling */
+    #mul-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      inline-size: -webkit-fill-available;
+    }
+    /* mul-btn hover effect */
+    #mul-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* easy-btn, medium-btn, hard-btn styling, black theme minimalistic, transparent background and opaque border */
+    #easy-btn,
+    #medium-btn,
+    #hard-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+      inline-size: -webkit-fill-available;
+    }
+    #medium-btn {
+      margin-top: 20px;
+    }
+    #hard-btn {
+      margin-top: 20px;
+    }
+    /* easy-btn hover effect */
+    #easy-btn:hover,
+    #medium-btn:hover,
+    #hard-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* styling undo purchase click form */
+    .form__group {
+      position: relative;
+      padding: 20px 0 0;
+      width: 100%;
+      max-width: 180px;
+    }
+    /* username field styling, black theme minimalistic */
+    .form__field {
+      font-family: inherit;
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid #9b9b9b;
+      outline: 0;
+      font-size: 17px;
+      color: #9b9b9b;
+      padding: 7px 0;
+      background: transparent;
+      transition: border-color 0.2s;
+    }
+    /* username field placeholder styling */
+    .form__field::placeholder {
+      color: transparent;
+    }
+    /* username field placeholder shown styling */
+    .form__field:placeholder-shown~.form__label {
+      font-size: 17px;
+      cursor: text;
+      top: 20px;
+    }
+    /* username label styling */
+    .form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 17px;
+      color: #9b9b9b;
+      pointer-events: none;
+    }
+    /* username field focus styling */
+    .form__field:focus {
+      padding-bottom: 6px;
+      font-weight: 700;
+      border-width: 3px;
+      border-image: linear-gradient(to right, #9b9b9ba0, #ffffff);
+      border-image-slice: 1;
+    }
+    /* username field focus label styling */
+    .form__field:focus~.form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 17px;
+      color: #9b9b9b;
+      font-weight: 700;
+    }
+    /* reset input */
+    .form__field:required,
+    .form__field:invalid {
+      box-shadow: none;
+    }
+    /* check username button styling, black theme minimalistic, transparent background and opaque border */
+    .check-username-btn {
+      margin-top: 10px;
+      background-color: transparent;
+      color: #fff;
+      padding: 10px;
+      border: 2px solid #fff;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* check-username-btn hover effect */
+    .check-username-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* Player 1 Login, Player 2 Login, Submit button styling, black theme minimalistic, transparent background and opaque border */
+    #player1-username,
+    #player1-password,
+    #player2-username,
+    #player2-password {
+      width: 100%;
+      font-family: inherit;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    /* Submit button styling, black theme minimalistic, transparent background and opaque border */
+    #player1-login,
+    #player2-login {
+      background-color: transparent;
+      color: #fff;
+      padding: 10px;
+      border: 2px solid #fff;
+      font-family: 'Montserrat', sans-serif;
+      /* border-radius: 5px; */
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* Submit button hover effect */
+    #player1-login:hover,
+    #player2-login:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* center-button styling */
+    .center-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    /* center-button button styling, black theme minimalistic, transparent background and opaque border */
+    .center-button button {
+      padding: 10px 20px;
+      cursor: pointer;
+      font-family: inherit;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* center-button button hover effect */
+    .center-button button:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* Tic Tac Toe grid styling, black theme minimalistic */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 10px;
+      justify-content: center;
+    }
+    /* grid-item styling, black theme minimalistic, transparent background and opaque border, cursor pointer */
+    .grid-item {
+      background-color: transparent;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    /* grid-item hover effect */
+    .grid-item:hover {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    /* Undo button styling, black theme minimalistic, transparent background and opaque border, positioned at bottom left relative to grid container */
+    #undo-button {
+      position: absolute;
+      /* position is relative to grid container, now we can use top, left, right, bottom, to position the button at bottom left position relative to grid container */
+      bottom: 10px; /* Positioned 10px from the bottom */
+      left: 10px; /* Positioned 10px from the left */
+      padding: 5px 5px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* Undo button hover effect */
+    #undo-button:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* continue button styling, black theme minimalistic, transparent background and opaque border */
+    #cont-mul,
+    #cont-ai {
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    /* continue button hover effect */
+    #cont-mul:hover,
+    #cont-ai:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    /* x-wins, o-wins, ai-wins, x-loses, o-loses, ai-loses, x-coins, o-coins styling */
+    #x-wins,
+    #o-wins,
+    #ai-wins,
+    #x-loses,
+    #o-loses,
+    #ai-loses,
+    #x-coins,
+    #o-coins {
+      font-weight: bold;
+      color: #747474;
+    }
   </style>
 </head>
-
 <body>
+  <button onclick="loadInitialContent()" id="back-btn">Back</button>
   <div id="game-content">
     <h1 id="game-heading">Tic Tac Toe</h1>
+    <p id="game-para">Welcome to our game!</p>
+    <button onclick="loadSecondContent()" id="play-btn">Play</button>
+    <button onclick="undoPurchaseClick()" id="undo-purchase-click">Get 2 undo moves for 100 coins</button>
+  </div>
+ <script>
+  function loadInitialContent() {
+    document.getElementById("back-btn").style.visibility = "hidden";
+    document.getElementById('game-content').innerHTML = `
+        <h1 id="game-heading">Tic Tac Toe</h1>
         <p id="game-para">Welcome to our game!</p>
         <button onclick="loadSecondContent()" id="play-btn">Play</button>
-        <button onclick="" id="achievement">Achievement</button>
+        <button onclick="undoPurchaseClick()" id="undo-purchase-click">Get 2 undo moves for 100 coins</button>
+    `;
+  
+    Module.ccall("refreshData", null, [], []);
+}
+
+function loadSecondContent() {
+  document.getElementById("back-btn").style.visibility = "visible";
+    document.getElementById('game-content').innerHTML = `
+        <p id="which-one-para">Which game do you want to play?</p>
+        <button onclick="loadAILogin()" id="ai-btn">AI</button>
+        <button onclick="loadLogin()" id="mul-btn">Multiplayer</button>
+    `;
+}
+
+function loadLogin() {
+    document.getElementById('game-content').innerHTML = `
+<h2>Player 1 Login</h2>
+<div id="Multiplayer" style="display: none;">2</div> <!-- 1-AI 2-Multiplayer -->
+<div> <!-- Update the action attribute with your login handling URL -->
+      <div>
+          <label for="player1-username">Username:</label>
+          <input type="text" id="player1-username" name="player1-username" required>
+      </div>
+      <div>
+          <label for="player1-password">Password:</label>
+          <input type="password" id="player1-password" name="player1-password" required>
+      </div>
+      <div>
+          <button id="player1-login" class="1" type="submit" onclick="LoginPlayer1()">Login</button>
+      </div>
   </div>
-  <!-- <script>
-        const importObject = {
-        module: {},
-        env: {
-          memory: new WebAssembly.Memory({ initial: 256 }),
-        }
-      };
 
-      WebAssembly.instantiateStreaming(
-        fetch('./build/OOPProject.wasm'),
-        importObject
-      ).then(result => {
-        const Sum = result.instance.exports.Sum;
-        console.log(Sum(4, 5));
-        console.log(Sum(10, 10));
-        console.log("test")
-      });
-        </script> -->
-  <script>
-    Module.onRuntimeInitialized = function () {
-      // var result = Module.ccall("add", 'number', ['number', 'number'], [1,2]);
-      // console.log("Result from C++: " + result + "Hello");
-      // Module._sendArrToCpp();
-      // Module._mainFunc();
-      Module.ccall("refreshData", null, [], []);
-    };
-  </script>
-  <script>
-    // document.getElementById("play-btn").addEventListener("click", () => {
-    //   alert("check console");
-    //   // Module.onRuntimeInitialized = function() {
-    //   // getArr();
-    //   // Module._sendArrToCpp();
-    //   // };
+  <h2>Player 2 Login</h2>
+  <div> <!-- Update the action attribute with your login handling URL -->
+      <div>
+          <label for="player2-username">Username:</label>
+          <input type="text" id="player2-username" name="player2-username" required>
+      </div>
+      <div>
+          <label for="player2-password">Password:</label>
+          <input type="password" id="player2-password" name="player2-password" required>
+      </div>
+      <div>
+          <button id="player2-login" type="submit" onclick="LoginPlayer2()">Login</button>
+      </div>
+  </div>
+  <div class="center-button">
+          <button type="submit" onclick="showMenu()">Submit</button>
+      </div>
+    `
 
-    // });
-  </script>
+    Module.ccall("multiplayerChosen", null, [], []); // You have to look at this Module.ccall(), inside the C++ function is defined, you havet ocopy the name of the function
+}
 
-  <script>
-//     function loadInitialContent() {
-//       document.getElementById('game-content').innerHTML = `
-//           <h1 id="game-heading">Tic Tac Toe</h1>
-//           <p id="game-para">Welcome to our game!</p>
-//           <button onclick="loadSecondContent()" id="play-btn">Play</button>
-//           <button onclick="" id="achievement">Achievement</button>
-//       `;
-//       setTimeout(() => {
-//         Module.ccall("refreshData", null, [], []);
-//       }, 100);
-//     }
+function LoginPlayer1() { // There it is
+    let username1 = document.getElementById("player1-username").value;
+    let password1 = document.getElementById("player1-password").value;
 
-//     function loadSecondContent() {
-//       document.getElementById('game-content').innerHTML = `
-//           <p>Which one?</p>
-//           <button onclick="loadThirdContent()">AI</button>
-//           <button onclick="loadLogin()">Multiplayer</button>
-//       `;
-//       Module.ccall("createGame", null, [], []);
-//     }
+    Module.ccall("LoginUser1", null, ["number", "string", "string"], [1, username1, password1]);
+}
 
-//     function loadLogin() {
-//       document.getElementById('game-content').innerHTML = `
-// <h2>Player 1 Login</h2>
-// <div id="Multiplayer" style="display: none;">2</div> <!-- 1-AI 2-Multiplayer -->
-// <div> <!-- Update the action attribute with your login handling URL -->
-//         <div>
-//             <label for="player1-username">Username:</label>
-//             <input type="text" id="player1-username" name="player1-username" required>
-//         </div>
-//         <div>
-//             <label for="player1-password">Password:</label>
-//             <input type="password" id="player1-password" name="player1-password" required>
-//         </div>
-//         <div>
-//             <button id="player1-login" class="1" type="submit" onclick="LoginPlayer1()">Login</button>
-//         </div>
-//     </div>
+function LoginPlayer2() {
+    let username = document.getElementById("player2-username").value
+    let password = document.getElementById("player2-password").value
+    let indicator = document.getElementById("Multiplayer").innerText
 
-//     <h2>Player 2 Login</h2>
-//     <div> <!-- Update the action attribute with your login handling URL -->
-//         <div>
-//             <label for="player2-username">Username:</label>
-//             <input type="text" id="player2-username" name="player2-username" required>
-//         </div>
-//         <div>
-//             <label for="player2-password">Password:</label>
-//             <input type="password" id="player2-password" name="player2-password" required>
-//         </div>
-//         <div>
-//             <button id="player2-login" type="submit" onclick="LoginPlayer2()">Login</button>
-//         </div>
-//     </div>
-//     <div class="center-button">
-//             <button type="submit" onclick="showMenu()">Submit</button>
-//         </div>
-//       `
+    let username1 = document.getElementById("player1-username").value
 
-//       Module.ccall("createMultiplayer", null, [], []);
-//     }
+    if (username1 == username) {
+        alert("Usernames cannot be same");
+        return;
+    }
 
-//     function LoginPlayer1() {
-//       let username1 = document.getElementById("player1-username").value
-//       let password1 = document.getElementById("player1-password").value
-//       let indicator = document.getElementById("Multiplayer").innerText
+    Module.ccall("LoginUser2", null, ["number", "string", "string"], [2, username, password])
+}
 
-//       Module.ccall("LoginUser1", null, ["number", "string", "string", "string"], [1, indicator, username1, password1])
-//       // Module.LoginUser1(1, indicator, username1, password1);
-//     }
+function showMenu() {
+    if (document.getElementById(`player1-login`).style.visibility == "hidden" && document.getElementById(`player2-login`).style.visibility == "hidden") {
+        document.getElementById('game-content').innerHTML = `
+        <h1 id="tic-tac-toe-timer">Time: <span id="current-ttt-time">0m 0s</span></h1>
+      <button onclick="continueMulGame()" style="visibility: hidden;" id="cont-mul">Continue</button>
+    <h2 id="current-turn-heading"></h2>
 
-//     function LoginPlayer2() {
-//       let username = document.getElementById("player2-username").value
-//       let password = document.getElementById("player2-password").value
-//       let indicator = document.getElementById("Multiplayer").innerText
+<div class="grid-container">
+<div class="grid-item" id="0" onclick="makeMove(this)">_</div>
+<div class="grid-item" id="1" onclick="makeMove(this)">_</div>
+<div class="grid-item" id="2" onclick="makeMove(this)">_</div>  
+<div class="grid-item" id="3" onclick="makeMove(this)">_</div>
+<div class="grid-item" id="4" onclick="makeMove(this)">_</div>
+<div class="grid-item" id="5" onclick="makeMove(this)">_</div>  
+<div class="grid-item" id="6" onclick="makeMove(this)">_</div>
+<div class="grid-item" id="7" onclick="makeMove(this)">_</div>
+<div class="grid-item" id="8" onclick="makeMove(this)">_</div>  
+</div>
 
-//       let username1 = document.getElementById("player1-username").value
+<div class="win-counter">
+<p><span id="plr-1-counter-wins">Player X</span> Wins: <span id="x-wins">0</span></p>
+<p><span id="plr-1-counter-loses">Player X</span> Loses: <span id="x-loses">0</span></p>
+<p><span id="plr-2-counter-wins">Player O</span> Wins: <span id="o-wins">0</span></p>
+<p><span id="plr-2-counter-loses">Player O</span> Loses: <span id="o-loses">0</span></p>
+<p><span id="plr-1-coins">Player X</span> Coins: <span id="x-coins">0</span></p>
+<p><span id="plr-2-coins">Player O</span> Coins: <span id="o-coins">0</p>
+</div>
+<button id="undo-button" onclick="undoMoveJS()">Undo</button>
+    `
+        Module.ccall("setCurrentPlrAtBegin", null, [], []);
+        // let time = 50;
+        // let boolVal = Module.ccall("checkGameRunning", "number", [], []);
+        // console.log(boolVal);
+        // let intervalID = setInterval(() => {
+        //     //countdown for 1 minute in descending order
+        //     // first set a default time
+        //     if (Module.ccall("checkGameRunning", "number", [], []) == false) {
+        //         clearInterval(intervalID);
+        //         return;
+        //     }
+        //     let timer = document.getElementById("current-ttt-time");
+        //     timer.innerText = `${Math.floor(time/60)}m ${time % 60}s`;
+        //     --time;
+        //     if (time < 0) {
+        //         clearInterval(intervalID);
+        //         setTimeout(() => {
+        //             alert("Time's up! Game draw!");
+        //         }, 0);
+        //         Module.ccall("endGame", null, [], []);
+        //         document.getElementById('cont-mul').style.visibility = "visible";
+        //         // Module.ccall("timesUp", null, [], []);
+        //         // Module.timesUp();
+        //     }
+        // }, 1000);
+        // Module.setCurrentPlrAtBegin();
+    } else {
+        alert("Please enter correct logins!");
+    }
+}
 
-//       if (username1 == username) {
-//         alert("Usernames cannot be same");
-//         return;
-//       }
+function undoMoveJS() {
+    Module.ccall("undoMoveCPP", null, [], []);
+}
 
-//       Module.ccall("LoginUser2", null, ["number", "string", "string", "string"], [2, indicator, username, password])
-//       // Module.LoginUser2(2, indicator, username, password);
-//     }
+function makeMove(cell) {
+    Module.ccall("movePlr", null, ["string"], [cell.id]);
+}
 
-//     function loadThirdContent() {
-//       document.getElementById('game-content').innerHTML = `
-//           <button onclick="loadInitialContent()">Back</button>
-//       `;
-//     }
+function makeMoveAIGame(cell) {
+    Module.ccall("movePlr", null, ["string"], [cell.id]);
+}
 
-//     function showMenu() {
-//       if (document.getElementById(`player1-login`).style.visibility == "hidden" && document.getElementById(`player2-login`).style.visibility == "hidden") {
-//         document.getElementById('game-content').innerHTML = `
-//         <button onclick="loadInitialContent()">Back</button>
-//       <h2 id="current-turn-heading"></h2>
+function continueMulGame() {
+    Module.ccall("continueMulGame", null, [], []);
+    document.getElementById('cont-mul').style.visibility = "hidden";
+}
 
-// <div class="grid-container">
-//   <div class="grid-item" id="0" onclick="makeMove(this)">_</div>
-//   <div class="grid-item" id="1" onclick="makeMove(this)">_</div>
-//   <div class="grid-item" id="2" onclick="makeMove(this)">_</div>  
-//   <div class="grid-item" id="3" onclick="makeMove(this)">_</div>
-//   <div class="grid-item" id="4" onclick="makeMove(this)">_</div>
-//   <div class="grid-item" id="5" onclick="makeMove(this)">_</div>  
-//   <div class="grid-item" id="6" onclick="makeMove(this)">_</div>
-//   <div class="grid-item" id="7" onclick="makeMove(this)">_</div>
-//   <div class="grid-item" id="8" onclick="makeMove(this)">_</div>  
-// </div>
+function continueAIGame() {
+    Module.ccall("continueAIGame", null, [], []);
+    document.getElementById('cont-ai').style.visibility = "hidden";
+}
 
-// <div class="win-counter">
-//   <p>Player X Wins: <span id="x-wins">0</span></p>
-//   <p>Player O Wins: <span id="o-wins">0</span></p>
-// </div>
-// <button onclick="undoMoveJS()">Undo</button>
-//       `
-//       Module.ccall("setCurrentPlrAtBegin", null ,[], []);
-//       // Module.setCurrentPlrAtBegin();
-//       } else {
-//         alert("Please enter correct logins!");
-//       }
-//     }
+function LoginAIPlr() {
+    let username = document.getElementById("player1-username").value
+    let password = document.getElementById("player1-password").value
+    let indicator = document.getElementById("AI").innerText
 
-//     function undoMoveJS() {
-//       Module.ccall("undoMoveCPP", null, [], []);
-//       // Module.undoMove();
-//     }
+    Module.ccall("LoginUser1", null, ["number", "string", "string", "string"], [1, username, password])
+}
 
-//     function makeMove(cell) {
-//       // alert("Cell clicked: " + cell.innerText);
-//       // Module._printArr();
-//       Module.ccall("movePlr", null, ["string"], [cell.id]);
-//       // Module.movePlr(cell.id);
-//     }
+function loadAILogin() {
+    document.getElementById('game-content').innerHTML = `
+    <h2>Player 1 Login</h2>
+    <div id="AI" style="display: none;">1</div> <!-- 1-AI 2-Multiplayer -->
+    <div> <!-- Update the action attribute with your login handling URL -->
+          <div>
+              <label for="player1-username">Username:</label>
+              <input type="text" id="player1-username" name="player1-username" required>
+          </div>
+          <div>
+              <label for="player1-password">Password:</label>
+              <input type="password" id="player1-password" name="player1-password" required>
+          </div>
+          <div>
+              <button id="player1-login" class="1" type="submit" onclick="LoginAIPlr()">Login</button>
+          </div>
+      </div>
+      <div class="center-button">
+              <button type="submit" onclick="showDifficultyMenu()">Submit</button>
+          </div>
+    `
 
-//     // Load the initial content when the page loads
-//     window.onload = loadInitialContent;
-  </script>
+    Module.ccall("AIGameChosen", null, [], []);
+}
+
+function showDifficultyMenu() {
+  if (document.getElementById(`player1-login`).style.visibility == "hidden") {
+    document.getElementById('game-content').innerHTML = `
+    <h2>Choose Difficulty</h2>
+    <button onclick="showAIMenu(0)" id="easy-btn">Easy</button>
+    <button onclick="showAIMenu(4)" id="medium-btn">Medium</button>
+    <button onclick="showAIMenu(9)" id="hard-btn">Hard</button>
+    `
+  } else {
+    alert("Please enter correct logins!");
+  }
+}
+
+function showAIMenu(difficulty) {
+        document.getElementById('game-content').innerHTML = `
+        <h1 id="tic-tac-toe-timer">Time: <span id="current-ttt-time">0m 0s</span></h1>
+      <button onclick="continueAIGame()" style="visibility: hidden;" id="cont-ai">Continue</button>
+      <div id="AI" style="display: none;">1</div> <!-- 1-AI 2-Multiplayer -->
+    <h2 id="current-turn-heading"></h2>
+
+<div class="grid-container">
+<div class="grid-item" id="0" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="1" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="2" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="3" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="4" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="5" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="6" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="7" onclick="makeMoveAIGame(this)">_</div>
+<div class="grid-item" id="8" onclick="makeMoveAIGame(this)">_</div>
+</div>
+
+<div class="win-counter">
+<p><span id="plr-1-counter-wins">Player X</span> Wins: <span id="x-wins">0</span></p>
+<p><span id="plr-1-counter-loses">Player X</span> Loses: <span id="x-loses">0</span></p>
+<p>AI Wins: <span id="ai-wins">0</span></p>
+<p>AI Loses: <span id="ai-loses">0</span></p>
+<p><span id="plr-1-coins">Player X</span> Coins: <span id="x-coins">0</span></p>
+</div>
+    `
+        Module.ccall("setCurrentPlrAtBeginAI", null, ["number"], [difficulty]);
+        // let time = 50;
+        // let boolVal = Module.ccall("checkGameRunning", "number", [], []);
+        // console.log(boolVal);
+
+        // let intervalID = setInterval(() => {
+        //     //countdown for 1 minute in descending order
+        //     // first set a default time
+        //     if (Module.ccall("checkGameRunning", "number", [], []) == false) {
+        //         clearInterval(intervalID);
+        //         return;
+        //     }
+        //     let timer = document.getElementById("current-ttt-time");
+        //     timer.innerText = `${Math.floor(time/60)}m ${time % 60}s`;
+        //     --time;
+        //     if (time < 0) {
+        //         clearInterval(intervalID);
+        //         setTimeout(() => {
+        //             alert("Time's up! Game draw!");
+        //         }, 0);
+        //         Module.ccall("endGame", null, [], []);
+        //         document.getElementById('cont-ai').style.visibility = "visible";
+        //         // Module.ccall("timesUp", null, [], []);
+        //         // Module.timesUp();
+        //     }
+        // }, 1000);
+}
+
+// For Undo, we are using "undo" as type of purchase
+function undoPurchaseClick() {
+    document.getElementById("back-btn").style.visibility = "visible";
+    document.getElementById("game-content").innerHTML = `
+    <div class="form__group field">
+    <input type="input" class="form__field" id="username-field" placeholder="Name" required="">
+    <label for="name" class="form__label">Username</label>
+    </div>
+       <button class="check-username-btn" onclick="sendUsername(document.getElementById('username-field').value, 'undo')">
+        Buy
+    </button>
+    `
+}
+
+function sendUsername(value, typeOfPurchase) {
+    Module.ccall("sendUsername", null, ["string", "string"], [value, typeOfPurchase])
+}
+
+function beforeReload() {
+  Module.ccall("beforeReload", null, [], []);
+}
+
+window.addEventListener("beforeunload", beforeReload)
+ </script>
 </body>
 
 </html>
