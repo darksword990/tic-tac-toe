@@ -30,11 +30,15 @@ emrun --no_browser --port 8080 .
 
 `--port` The port number must be specified after this argument
 
-## Author
+## Authors
 
 👤 **Khuzaima Sharif**
 
 * Github: [@darksword990](https://github.com/darksword990)
+
+👤 **Muhammad Ali Khan**
+
+* Github: [@MAKhan9909](https://github.com/MAKhan9909)
 
 ## Show your support
 
