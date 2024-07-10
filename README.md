@@ -42,6 +42,10 @@ emrun --no_browser --port 8080 .
 
 * Github: [@MAKhan9909](https://github.com/MAKhan9909)
 
+👤 **Cr07ch37**
+
+* Github: [@Cr07ch37](https://github.com/Cr07ch37)
+
 ## Show your support
 
 Give a ⭐️ if you liked this project!
