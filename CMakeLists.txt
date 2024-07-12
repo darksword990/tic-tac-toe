@@ -17,4 +17,5 @@ target_link_options(OOPProject PRIVATE
     "-sPTHREAD_POOL_SIZE=1"
     "-sEXPORTED_FUNCTIONS=_malloc,_free,setValue,getValue"
     "-sEXPORTED_RUNTIME_METHODS=ccall,cwrap"
+    "-sENVIRONMENT=web,worker"
 )
