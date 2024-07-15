@@ -1,1 +1,1 @@
-worker: python http_server.py
+web: python http_server.py
