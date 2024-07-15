@@ -3,14 +3,28 @@
 
 <head>
   <title>TicTacToe Game</title>
-  <script src="build/OOPProject.js"></script>
-  <script src="script.js"></script>
+  <script async src="/build/OOPProject.js"></script>
+  <script src="/script.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="style.css">
-  <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
-  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
 </head>
 <body>
+  <script>
+    // let importObject = {
+    //   env: {
+    //     memory: new WebAssembly.Memory({ initial: 256 }),
+    //     table: new WebAssembly.Table({ initial: 0, element: 'anyfunc' }),
+    //     abort: () => console.log('Abort called')
+    //   }
+    // };
+    // WebAssembly.instantiateStreaming(fetch('build/OOPProject.wasm'), importObject)
+    //   .then(obj => {
+    //     const { memory, table, abort } = obj.instance.exports;
+    //     window.memory = memory;
+    //     window.table = table;
+    //     window.abort = abort;
+    //   });
+  </script>
   <button onclick="loadInitialContent()" id="back-btn">Back</button>
   <div id="game-content">
     <h1 id="game-heading">Tic Tac Toe</h1>

@@ -18,4 +18,5 @@ target_link_options(OOPProject PRIVATE
     "-sEXPORTED_FUNCTIONS=_malloc,_free,setValue,getValue"
     "-sEXPORTED_RUNTIME_METHODS=ccall,cwrap"
     "-sENVIRONMENT=web,worker"
+    "-sTOTAL_MEMORY=67108864"
 )
